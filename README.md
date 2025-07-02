@@ -50,7 +50,7 @@ Object-oriented implementation of a slot machine game using TypeScript classes w
 - Random number generation for roulette simulation
 - Win/lose logic based on three matching results
 
-## =� Setup & Development
+## Setup & Development
 
 ### Prerequisites
 
