@@ -1,19 +1,12 @@
 console.log("************** DELIVERABLE 05 *********************");
 
 class SlothMachine {
-  private slothCount: number;
-  private roulette1: boolean;
-  private roulette2: boolean;
-  private roulette3: boolean;
+  private slothCount = 0;
+  private roulette1 = false;
+  private roulette2 = false;
+  private roulette3 = false;
 
-  constructor() {
-    this.slothCount = 0;
-    this.roulette1 = false;
-    this.roulette2 = false;
-    this.roulette3 = false;
-  }
-
-  public play(): void {
+  public play() {
     this.slothCount++;
     this.roulette1 = Math.random() < 0.5;
     this.roulette2 = Math.random() < 0.5;
