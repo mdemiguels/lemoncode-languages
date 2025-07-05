@@ -1,10 +1,10 @@
 console.log("************** DELIVERABLE 05 *********************");
 
 class SlothMachine {
-  private slothCount = 0;
-  private roulette1 = false;
-  private roulette2 = false;
-  private roulette3 = false;
+  slothCount = 0;
+  roulette1 = false;
+  roulette2 = false;
+  roulette3 = false;
 
   public play() {
     this.slothCount++;
